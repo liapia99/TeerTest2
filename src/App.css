@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200;300&family=Montserrat:wght@442&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+
+img {
+  width: 300px;
+  margin: 10px;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  font-family: "Fira Sans Condensed";
+  background: #a6e7ff;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+.link {
+  display: flex;
+  color: rgb(79, 205, 255);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  border-radius: 10px;
+}
+.link:hover {
+  background: #42cdff;
+  color: rgb(15, 6, 138);
+  transition: all 0.5s;
+}
+.active {
+  background: #42cdff;
+  color: #fff;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.theme {
+  margin-top: -100px;
+  margin-right: -100px;
+}

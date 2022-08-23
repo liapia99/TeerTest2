@@ -1,0 +1,103 @@
+.appContainer {
+  text-align: center;
+}
+
+.sectionContainer {
+  display: flex;
+  font-family: "Fira Sans Condensed";
+  flex-direction: column;
+  height: 100%;
+  background-color: none;
+  margin-top: 0px;
+}
+
+.main {
+  display: flex;
+
+  flex-direction: column;
+  padding: 10px;
+  font-family: "Fira Sans Condensed";
+}
+.button {
+  font-family: "Fira Sans Condensed";
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(116, 216, 255);
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  hover: rgb(69, 163, 252);
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  margin: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  color: white;
+  padding-bottom: 2px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  font-family: "Fira Sans Condensed";
+}
+.name {
+  position: absolute;
+  margin-top: -4rem;
+  color: gray;
+  font-size: 15px;
+  font-family: "Fira Sans Condensed";
+}
+.sent {
+  background-color: #395dff;
+  color: white;
+  flex-direction: row-reverse;
+  text-align-last: center;
+  float: right;
+  border-bottom-left-radius: 9999px;
+  font-family: "Fira Sans Condensed";
+}
+.received {
+  background-color: green;
+  color: black;
+  float: left;
+  border-bottom-right-radius: 9999px;
+  font-family: "Fira Sans Condensed";
+}
+.form {
+  height: 56px;
+  width: 100%;
+  max-width: 1325px;
+  display: flex;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0px;
+  font-family: "Fira Sans Condensed";
+}
+.input {
+  width: 80%;
+  font-size: 20px;
+  padding: 16px;
+  margin: 0px;
+  margin-right: 0px;
+  background-color: rgb(116, 216, 255);
+  color: black;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-style: none;
+  border-radius: 5px;
+  font-family: "Fira Sans Condensed";
+}
+.send-button {
+  width: 20%;
+  font-family: "Fira Sans Condensed";
+  background-color: rgb(178, 255, 143);
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
